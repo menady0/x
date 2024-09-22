@@ -10,5 +10,5 @@ import { HomePageComponent } from './home-page/home-page.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'x';
+  title = 'testing';
 }

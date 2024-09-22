@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+.summerSale {
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  font-size: 14px;
+}
+.summerSale div:first-child a {
+  color: white;
+  font-weight: bold;
+}
+.summerSale div:last-child {
+  position: absolute;
+  right: 60px;
+}
+/* .languages {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  width: 75px;
+}
+button {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+ul {
+  list-style: none;
+  padding-left: 5px;
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  width: 100%;
+  right: 28px; 
+  bottom: -65px; 
+} */
+/* ul li {
+  margin: 10px 0;
+}
+ul a {
+  color: #000000;
+  text-decoration: none;
+}
+.hid {
+  visibility: hidden;
+}
+.vis {
+  visibility: visible;
+} */
+
+select {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+option {
+  color: #000000;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+.parent {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+nav {
+  padding: 25px 20px;
+  align-items: center;
+}
+.logo {
+  cursor: pointer;
+}
+
+.links ul {
+  list-style: none;
+  margin-bottom: 0;  
+}
+.links ul a {
+  text-decoration: none;
+  color: #000000;
+  margin: 0 25px;
+  position: relative;
+}
+ul li {
+  position: relative;
+}
+.links ul a::before {
+  content: '';
+  /* width: 100%; */
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 1px;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+
+}
+.links ul a.active::before {
+  width: 100%;
+}
+.searchBar {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchBar div {
+  position: relative;
+}
+.searchBar div i {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.searchBar div input {
+  padding: 8px 15px;
+  padding-right: 40px;
+  background-color: #F5F5F5;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  width: 100%;
+  border-radius: 5px;
+  width:max-content;
+}
