@@ -84,19 +84,20 @@ nav {
   color: #000000;
   margin: 0 25px;
   position: relative;
+  
 }
 ul li {
   position: relative;
 }
 .links ul a::before {
   content: '';
-  /* width: 100%; */
+  width: 0%;
   background-color: rgba(0, 0, 0, 0.4);
   height: 1px;
   position: absolute;
   left: 0;
   bottom: -2px;
-
+  transition: all 0.3s;
 }
 .links ul a.active::before {
   width: 100%;
