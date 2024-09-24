@@ -68,7 +68,7 @@ option {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 nav {
-  padding: 25px 20px;
+  padding: 25px 0;
   align-items: center;
 }
 .logo {
@@ -89,7 +89,7 @@ nav {
 ul li {
   position: relative;
 }
-.links ul a::before {
+/* .links ul a::before {
   content: '';
   width: 0%;
   background-color: rgba(0, 0, 0, 0.4);
@@ -98,10 +98,13 @@ ul li {
   left: 0;
   bottom: -2px;
   transition: all 0.3s;
+} */
+.active {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  transition: .3s ease;
 }
-.links ul a.active::before {
-  width: 100%;
-}
+/* .links ul a.active::before {
+} */
 .searchBar {
   width: 25%;
   display: flex;

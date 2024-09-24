@@ -1,0 +1,32 @@
+section {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.path {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+}
+.path a:first-child {
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+.path a:last-child {
+  color: #000;
+}
+.error {
+  text-align: center;
+}
+.error h1 {
+  font-size: 90px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.error a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #DB4444;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin-top: 20px;
+}

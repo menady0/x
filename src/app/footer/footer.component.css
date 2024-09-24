@@ -1,0 +1,57 @@
+.parent {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.9);
+}
+.row {
+  padding: 40px 0;
+}
+.row div > h5 {
+  margin-bottom: 25px;
+}
+
+
+
+.qr p {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 11px;
+}
+table {
+  width: 100%;
+}
+table img {
+  width: 100px;
+}
+table img[alt="qrcode"] {
+  width: 75px;
+  background-color: white;
+}
+/* img:nth-of-type(2),
+img:last-of-type {
+  width: 100px;
+} */
+
+.copyright {
+  border-top:1px solid rgb(255, 255, 255, .1);
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  padding: 10px 0;
+}
+.input {
+  position: relative;
+}
+input {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  outline: none;
+  color: rgba(255, 255, 255, 0.3);
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+i {
+  display: inline-block;
+  transform: translateY(-50%) rotate(45deg) ;
+  position: absolute;
+  right: 70px;
+  top: 50%;
+  cursor: pointer;
+}
