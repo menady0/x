@@ -36,7 +36,8 @@ img:last-of-type {
   color: rgba(255, 255, 255, 0.3);
   padding: 10px 0;
 }
-.input {
+label {
+  /* display: flex; */
   position: relative;
 }
 input {
@@ -48,10 +49,22 @@ input {
   border-radius: 5px;
 }
 i {
-  display: inline-block;
-  transform: translateY(-50%) rotate(45deg) ;
   position: absolute;
-  right: 70px;
   top: 50%;
-  cursor: pointer;
+  transform: translateY(-50%) rotate(45deg) ;
+  right: 1em;
+  /* display: inline-block;
+  right: 70px;
+  cursor: pointer; */
+}
+
+@media screen and (min-width: 992px) {
+  .col-lg-2 img {
+    width: 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .col-sm-10 {
+    margin-bottom: 20px;
+  }
 }
